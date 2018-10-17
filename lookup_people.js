@@ -1,6 +1,6 @@
 const pg = require("pg");
 const settings = require("./settings"); // settings.json
-const moment = require("./node_modules/moment"); // settings.json
+const moment = require("./node_modules/moment"); 
 const input = process.argv.slice(2); // accpt argv from command line 
 const client = new pg.Client(settings, moment);
 
